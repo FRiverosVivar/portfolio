@@ -36,7 +36,19 @@ export default function Home() {
         </AnimatePresence>
       </motion.div>
       <MyExperiences />
-      <MyProjects />
+      <motion.div
+        key="projects"
+        viewport={{ once: true }}
+        whileInView={{
+          opacity: 1,
+          transition: { duration: 1.5, delay: 0.2 },
+        }}
+        initial={{ opacity: 0 }}
+      >
+        <AnimatePresence mode="wait">
+          <MyProjects />
+        </AnimatePresence>
+      </motion.div>
       <motion.div
         key="footer"
         viewport={{ once: true }}
