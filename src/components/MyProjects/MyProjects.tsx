@@ -24,8 +24,8 @@ const MyProjects = () => {
           the front end and also to the back end.
         </Project>
         <Project imageSrc="/powell-logo.jpg" name="Powell Electronics">
-          Powell's project was to update the Storefront design, in my role I
-          made changes on a full stack basis.
+          Powell&apos;s project was to update the Storefront design, in my role
+          I made changes on a full stack basis.
         </Project>
         <Project imageSrc="/pk.png" name="ParkeateApp">
           Freelance project. I made Mobile App, Backend and Frontend. I also

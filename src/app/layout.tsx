@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className + " overflow-x-hidden"}>
         <main
           className="flex min-h-screen flex-col items-center justify-between"
-          style={{ background: `url('/bg.svg')`, backgroundSize: "contain" }}
+          style={{ background: "url('/bg.svg')", backgroundSize: "contain" }}
         >
           {children}
         </main>
