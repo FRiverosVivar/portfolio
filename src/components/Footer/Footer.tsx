@@ -1,7 +1,5 @@
-import { faFigma } from "@fortawesome/free-brands-svg-icons";
 import Article from "../Article/Article";
 import Socials from "../Socials/Socials";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
   return (

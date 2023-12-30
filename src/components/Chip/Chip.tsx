@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { ChipProps } from "./Chip.props";
 
 const Chip = (props: ChipProps) => {
