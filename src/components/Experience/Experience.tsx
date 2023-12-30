@@ -43,7 +43,7 @@ const Experience = (props: ExperienceProps) => {
       {technologies && (
         <div className="flex flex-row mt-4 gap-4">
           {technologies.map((tech) => (
-            <Chip>{tech}</Chip>
+            <Chip key={tech}>{tech}</Chip>
           ))}
         </div>
       )}

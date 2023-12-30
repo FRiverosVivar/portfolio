@@ -1,6 +1,5 @@
 "use client";
 import AboutMe from "@/components/AboutMe/AboutMe";
-import Background from "@/components/Background/Background";
 import Footer from "@/components/Footer/Footer";
 import MyExperiences from "@/components/MyExperiences/MyExperiences";
 import MyProjects from "@/components/MyProjects/MyProjects";

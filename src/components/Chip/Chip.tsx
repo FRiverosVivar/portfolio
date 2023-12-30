@@ -7,7 +7,7 @@ const Chip = (props: ChipProps) => {
     <span
       className="px-6 py-2 rounded-full"
       style={{
-        border: "0.5px solid #9C83FF;",
+        border: "0.5px solid #9C83FF",
       }}
     >
       {children}

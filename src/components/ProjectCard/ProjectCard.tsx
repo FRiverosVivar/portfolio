@@ -9,7 +9,7 @@ const ProjectCard = ({
     <div
       className=" h-32 w-64 rounded-lg overflow-hidden bg-center bg-no-repeat bg-cover"
       style={{
-        background: `url('${imageSrc}')`,
+        background: "url(" + imageSrc + ")",
         backgroundPosition: "center",
         backgroundSize: backgroundSize,
       }}

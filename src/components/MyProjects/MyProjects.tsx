@@ -27,7 +27,7 @@ const MyProjects = () => {
           Powell's project was to update the Storefront design, in my role I
           made changes on a full stack basis.
         </Project>
-        <Project imageSrc="/parkeate.png" name="ParkeateApp">
+        <Project imageSrc="/pk.png" name="ParkeateApp">
           Freelance project. I made Mobile App, Backend and Frontend. I also
           acted as a JR Consultant for AWS and GCP creating services for the
           startup. - AWS Pipelines, Google Places and more ~
