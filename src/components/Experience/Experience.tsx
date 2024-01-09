@@ -41,7 +41,7 @@ const Experience = (props: ExperienceProps) => {
         </Article>
       </div>
       {technologies && (
-        <div className="flex flex-row mt-4 gap-4">
+        <div className="flex flex-wrap flex-row mt-4 gap-4">
           {technologies.map((tech) => (
             <Chip key={tech}>{tech}</Chip>
           ))}

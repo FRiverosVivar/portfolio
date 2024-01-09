@@ -3,6 +3,6 @@ import { ReactNode } from "react";
 export type ProjectProps = {
   imageSrc: string;
   name: string;
-  backgroundSize?: string;
+  backgroundStyles?: string;
   children: ReactNode;
 };

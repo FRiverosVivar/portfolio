@@ -1,17 +1,15 @@
 const ProjectCard = ({
   imageSrc,
-  backgroundSize = "cover",
+  backgroundStyles,
 }: {
   imageSrc: string;
-  backgroundSize?: string;
+  backgroundStyles?: string;
 }) => {
   return (
     <div
-      className=" h-32 w-64 rounded-lg overflow-hidden bg-center bg-no-repeat bg-cover"
+      className={backgroundStyles + " h-32 w-64 rounded-lg overflow-hidden"}
       style={{
-        background: `url('${imageSrc}')`,
-        backgroundPosition: "center",
-        backgroundSize: backgroundSize,
+        backgroundImage: `url('${imageSrc}')`,
       }}
     ></div>
   );
