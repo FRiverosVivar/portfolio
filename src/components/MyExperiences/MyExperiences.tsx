@@ -58,6 +58,78 @@ const MyExperiences = () => {
         </AnimatePresence>
       </motion.div>
       <motion.div
+        key="Project Nameless"
+        viewport={{ once: true }}
+        whileInView={{
+          opacity: 1,
+          transition: { duration: 1.5, delay: 0.4 },
+        }}
+        initial={{ opacity: 0 }}
+      >
+        <AnimatePresence mode="wait">
+          <div className="flex flex-col justify-center items-center">
+            <Experience
+              jobType={"REMOTE"}
+              jobLocation={"CHILE"}
+              enterpriseName={"Project Nameless"}
+              role={"Full Stack Engineer + AWS Consultant"}
+              from={"NOVEMBER 2023"}
+              to={"PRESENT"}
+              technologies={[
+                "React",
+                "Java",
+                "Quarkus",
+                "Kafka",
+                "Microservices",
+              ]}
+            >
+              WIP ~ Currently working in a project with Java 21+, Quarkus,
+              Docker, Kafka, OpenTelemetry, Jakarta with a micro-services as a
+              architecture. Deployed in AWS Ecosystem.
+            </Experience>
+          </div>
+        </AnimatePresence>
+      </motion.div>
+      <motion.div
+        key="ParkeateAPP"
+        viewport={{ once: true }}
+        whileInView={{
+          opacity: 1,
+          transition: { duration: 1.5, delay: 0.4 },
+        }}
+        initial={{ opacity: 0 }}
+      >
+        <AnimatePresence mode="wait">
+          <div className="flex flex-col justify-center items-center">
+            <Experience
+              jobType={"REMOTE"}
+              jobLocation={"CHILE"}
+              enterpriseName={"ParkeateApp"}
+              role={"Full Stack Engineer + AWS/GCP Consultant"}
+              from={"JULY 2023"}
+              to={"NOVEMBER 2023"}
+              technologies={[
+                "Angular",
+                "Nestjs",
+                "PostgreSQL",
+                "AWS",
+                "PostGIS",
+              ]}
+            >
+              I developed a system and a mobile application to search for
+              parking spaces in real time where you can rent parking spaces by
+              the minute and monthly.
+              <br></br>
+              <br></br>
+              One of the main challenges was to implement a coordinate system to
+              show the available parking lots according to filters and so on
+              depending on a radius, there we implemented functions directly
+              from the DB to alleviate calculation costs with the postgis tool.
+            </Experience>
+          </div>
+        </AnimatePresence>
+      </motion.div>
+      <motion.div
         key="sked24"
         viewport={{ once: true }}
         whileInView={{
